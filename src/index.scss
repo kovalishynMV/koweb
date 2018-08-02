@@ -1,7 +1,59 @@
 $red: #421;
 $white: #fff;
+$blue: #172bff;
+$grey: #b6b9c8;
 
 body {
-  background-color: $red;
+  background-color: $white;
   margin:0;
+}
+
+p{
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #14192e;
+  margin:0;
+}
+
+h5{
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #b6b9c8;
+  margin:0;
+}
+
+h1{
+  font-family: YesevaOne-Regular;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #14192e;
+}
+
+caption{
+  font-family: Raleway;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #b6b9c8;
 }

@@ -47,6 +47,7 @@ ul li a{
     text-decoration: none;
 }
 
-ul li a.lihover{
+ul.header__menu li a:hover{
     color: #b6b9c8;
+    transition: all 180ms;
 }

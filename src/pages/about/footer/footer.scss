@@ -1,2 +1,91 @@
 @import "../../../index.scss";
 
+.footer{
+    background-color: $white;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    padding-left:15%;
+    padding-right:15%;
+    height:161px;
+}
+
+.footer > div {
+    background-color: #fff;
+}
+
+    .footer__menu_left{
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+    }
+
+    .footer__menu_right{
+        margin: 0;
+        padding-top: 50px;
+        padding-right: 0px;
+    }
+
+ul.footer__menu_left {
+    list-style-type: none;
+    margin-right: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul.footer__menu_left li a{
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #14192e;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+ul.footer__menu_right {
+    list-style-type: none;
+    margin-right: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul.footer__menu_right li a{
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: $grey;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+.footer__caption{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+ul.footer__menu_left li a:hover{
+    color: $grey;
+    transition: all 180ms;
+}
+
+ul.footer__menu_right li a:hover{
+    color: $blue;
+    transition: all 180ms;
+}
