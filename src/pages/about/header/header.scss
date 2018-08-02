@@ -5,6 +5,8 @@ header{
     height: 75px;
     width: 100%;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo{
@@ -12,7 +14,39 @@ header{
     background-repeat: no-repeat;
     width: 35px;
     height: 35px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul.header__menu {
+    list-style-type: none;
+    margin-right: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul li a{
+    display: inline;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left:20px;
+    padding-bottom: 30px;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #14192e;
+    text-decoration: none;
+}
+
+ul li a.lihover{
+    color: #b6b9c8;
 }
