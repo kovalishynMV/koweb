@@ -12,10 +12,10 @@ class Footer extends React.Component {
                 </ul>
 
                 <ul class="footer__menu_right">
-                    <li><a href="">DRIBBBLE</a></li>
-                    <li><a href="">BEHANCE</a></li>
-                    <li><a href="">INSTAGRAM</a></li>
-                    <li><a href="">LINKEDIN</a></li>
+                    <li><a href="https://dribbble.com/KovalishynMV" target="_blank">DRIBBBLE</a></li>
+                    <li><a href="https://www.behance.net/kovalishynMV" target="_blank">BEHANCE</a></li>
+                    <li><a href="https://www.instagram.com/m.yankovskiy/" target="_blank">INSTAGRAM</a></li>
+                    <li><a href="https://www.linkedin.com/in/maksym-kovalishyn-46047710b/" target="_blank">LINKEDIN</a></li>
                 </ul>
 
                 <div className="footer__caption">
