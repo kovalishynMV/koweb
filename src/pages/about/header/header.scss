@@ -1,1 +1,18 @@
-@import 
+@import "../../../index.scss";
+
+header{
+    background-color: $white;
+    height: 75px;
+    width: 100%;
+    margin: 0;
+}
+
+.logo{
+    background: url(img/logo.svg) no-repeat center center;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}

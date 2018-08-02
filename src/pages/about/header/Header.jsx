@@ -5,9 +5,9 @@ import logo from './img/logo.svg';
 class Header extends React.Component {
     render() {
         return (
-            <div className="header">
-
-            </div>
+            <header>
+                <div className="logo" />
+            </header>
         );
     }
 }
