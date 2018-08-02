@@ -23,7 +23,7 @@
 
     .footer__menu_right{
         margin: 0;
-        padding-top: 50px;
+        padding-top: 90px;
         padding-right: 0px;
     }
 
@@ -73,6 +73,7 @@ ul.footer__menu_right li a{
     color: $grey;
     text-decoration: none;
     padding-left: 40px;
+    padding-right: 0px;
 }
 
 .footer__caption{
@@ -89,3 +90,87 @@ ul.footer__menu_right li a:hover{
     color: $blue;
     transition: all 180ms;
 }
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .footer{
+        background-color: $white;
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20%;
+        padding-left:15%;
+        padding-right:15%;
+        height:161px;
+    }
+
+    .footer__menu_left {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+    }
+
+    ul.footer__menu_left {
+        list-style-type: none;
+        margin-right: 20px;
+        margin: 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul.footer__menu_left li a{
+        padding-top: 0px;
+        padding-left: 15px;
+        padding-bottom: 0px;
+        padding-right: 15px;
+    }
+
+    .footer__menu_right{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+    }
+
+    ul.footer__menu_right{
+        font-family: Raleway;
+        font-size: 10px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 1.5px;
+        list-style-type: none;
+        margin: 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+    }
+
+    ul.footer__menu_right li a{
+        padding-top: 0px;
+        padding-left: 10%;
+        padding-bottom: 0px;
+        padding-right: 10%;
+    }
+
+    .footer__caption{
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    caption{
+        text-align: center;
+        line-height: 2;
+    }
+  }
+  

@@ -43,3 +43,20 @@
     margin-top:25px;
     margin-bottom:25px;
   }
+
+  @media screen and (max-width: 768px) {
+
+    .article{
+      grid-template-columns: 100%;
+    }
+
+    .article__left{
+      padding-top:20%;
+      padding-bottom: 8%;
+    }
+  
+    .article__right{
+      padding-top: 0px;
+      padding-bottom: 20%;
+    }
+  }
