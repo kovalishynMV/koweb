@@ -7,7 +7,7 @@ class Header extends React.Component {
     render() {
         return (
             <header>
-                <div className="logo">
+                <div className="logo" >
                     
                 </div>
 
