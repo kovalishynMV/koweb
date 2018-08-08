@@ -1,14 +1,15 @@
 import React from 'react';
 import './footer.scss';
+import { Link } from 'react-router-dom'
 
 class Footer extends React.Component {
     render() {
         return (
             <div className="footer">
                 <ul class="footer__menu_left">
-                    <li><a href="">WORK</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><Link to="/work">WORK</Link></li>
+                    <li><Link to="/">ABOUT</Link></li>
+                    <li><Link to="/contact">CONTACT</Link></li>
                 </ul>
 
                 <ul class="footer__menu_right">
