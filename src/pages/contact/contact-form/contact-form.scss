@@ -8,7 +8,50 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding-top: 175px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 4%;
+}
+
+.contact-form__inputs{
+    background-color: $white;
+    height: auto;
+    width: auto;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#with-placeholder{
+    width: 300px;
+}
+
+#multiline-flexible{
+    width: 300px;
+}
+
+#button{
+    margin-top: 50px;
+    width: 300px;
+    height: 54px;
+    border-radius: 2px;
+    border: solid 1px #172bff;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #172bff;
+}
+
+#button:hover{
+    background-color: #172bff;
+    box-shadow: 0 15px 35px 0 rgba(23, 43, 255, 0.12);
+    color: $white;
+    transition: all 180ms;
 }
