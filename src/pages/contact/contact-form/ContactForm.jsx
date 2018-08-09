@@ -5,18 +5,21 @@ import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 
-const styles = {
-    root: {
-      
+const styles = theme => ({
+    textField: {
+        width: 1500
     },
-    input: {
-      
-    }
-  };
+
+});
 
 class ContactForm extends React.Component {
+
     render() {
+
+        const {classes} = this.props;
+
         return (
+            
             <div className="contact-form">
                 <h5>
                     CONTACTS
@@ -32,16 +35,18 @@ class ContactForm extends React.Component {
                 
                 <div className="contact-form__inputs">
 
-                    <TextField
+                    <TextField className={classes.root}
                         id="with-placeholder"
                         label="Name"
                         margin="normal"
+                        className="classes.textField"
                     />
 
                     <TextField
                         id="with-placeholder"
                         label="E-mail"
                         margin="normal"
+                        className="classes.textField"
                     />
 
                     <TextField
@@ -61,5 +66,9 @@ class ContactForm extends React.Component {
         );
     }
 }
+
+ContactForm.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
 
 export default withStyles(styles)(ContactForm);
