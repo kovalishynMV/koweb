@@ -4,13 +4,22 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
+import { createMuiTheme } from '@material-ui/core/styles';
+
+const THEME = createMuiTheme({
+    typography: {
+     "fontFamily": "Raleway",
+     "fontWeightLight": 300,
+     "fontWeightRegular": 400,
+     "fontWeightMedium": 500
+    }
+ });
 
 const styles = theme => ({
     textField: {
-        width: 1500
     },
-
-});
+  });
+  
 
 class ContactForm extends React.Component {
 
@@ -25,21 +34,25 @@ class ContactForm extends React.Component {
                     CONTACTS
                 </h5>
 
-                <h1>
+                <h1 span class="contact-always">
                     Always in touch!
                 </h1>
 
-                <p max-width="300px">
+                <p span class="contact-hello">
                     If you have any questions or you just want to say "Hello!", Write to me
                 </p>
                 
                 <div className="contact-form__inputs">
 
-                    <TextField className={classes.root}
+                    <TextField 
+                        classes={{
+                            root: classes.root,
+                            label: classes.label,
+                            underline: classes.underline,
+                        }}
                         id="with-placeholder"
                         label="Name"
                         margin="normal"
-                        className="classes.textField"
                     />
 
                     <TextField
@@ -53,7 +66,7 @@ class ContactForm extends React.Component {
                         id="multiline-flexible"
                         label="Message"
                         multiline
-                        rowsMax="4"
+                        rowsMax="8"
                         margin="normal"
                     />
 

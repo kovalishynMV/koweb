@@ -55,3 +55,31 @@
     color: $white;
     transition: all 180ms;
 }
+
+@media screen and (max-width: 1000px) {
+    
+    .contact-form{
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    
+    .contact-form{
+        padding-top: 30%;
+        padding-bottom: 20%;
+        margin-left:20%;
+        margin-right:20%;
+    }
+
+    .contact-hello{
+        text-align: center;
+    }
+
+    .contact-always{
+        text-align: center;
+    }
+
+}
