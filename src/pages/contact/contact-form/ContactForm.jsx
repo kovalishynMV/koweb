@@ -46,6 +46,7 @@ const styles = {
         lineHeight: '1.5',
         letterSpacing: 'normal',
         color: '#b6b9c8',
+        margin: '10px',
 
         '&:after': {
             backgroundColor: '#fff',
